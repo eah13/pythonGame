@@ -15,7 +15,7 @@ cellchoices=['stay dank and lonely', 'break out'] #choices dictionary for either
 response= raw_input("What is your choice?") #raw input for response
 if (response).lower() in cellchoices[0]:
   print "If you wish..." #Then this is the response that will print
-  import scribe_level1.py #And as a result, the user will be forced to the start of the scribe's version of level 1
+ 	import scribe_level1.py #And as a result, the user will be forced to the start of the scribe's version of level 1
 
 if (response).lower() in cellchoise[1]:
   print "Excellent! You take out your handy dandy quill and begin lockpicking the door.\n" #Then the user has the ability   to lockpick the door 
