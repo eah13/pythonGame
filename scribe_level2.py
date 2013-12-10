@@ -50,8 +50,7 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 					print "Yikes!  Looks like you missed, try again."
 				if (response).lower() in fistchoices[0]: #User chooses Left
 					print "Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving her village.  She says she is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage!"
-					#import scribe_level3.py
-#ARMORHESITATE
+					import scribe_level3.py #User is moved on to the next level
 			if (response).lower() in cave0choices[1]: #User chooses to hesitate
 				print "While you hesitate, the beast comes out of the cave and claws your armor.  You have a gash across your chest from the blow.  Your armor is in shards of metal beside you. You take a shard of metal and use it as a weapon."
 				player_input(prompt='Do you use the shard of metal as a sword or a throwing weapon?',choice1='Sword', choice2='Throwing Weapon')
@@ -66,20 +65,16 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 					print "You use the metal shard as a sword.  As you swing left and right, the beast comes closer and closer.  You use the sword to deflect the fire the beast is blowing your way.  With your last ounce of strength, you thrust the metal shard into the beast.  You have killed the beast!"
 					print " "
 					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"
-					#import scribe_level3.py
+					import scribe_level3.py #User moves to next level
 				if (response).lower() in shardchoices[1]:#User chooses to use as throwing weapon
 					print "You use the metal shard as a throwing weapon. Since you have so many metal shards, you throw furiously at the beast.  The beast is dodging all of your shards!  As you come down to your last metal shard, you throw with all of your might.  The shard hits the beast's eye, and the trauma kills the beast!"
 					print " "
 					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"  
-					#import scribe_level3.py
+					import scribe_level3.py #User moves to next level
 			while (response).lower() not in cave0choices:
 				print " "
 				print "Incorrect input. Try again."
 				response=raw_input("What is your choice?").lower()
-
-
-#SWORD
-
 
 		if (response).lower() in blacksmithchoices[1]: #User chooses sword
 			print 'The blacksmith smiles, creates a sword of magestic proportions, and gives it to you.  He calls you brave and bids you good luck.  You leave the blacksmith and travel to the cave where the beast is located.'
@@ -100,7 +95,7 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 					response=raw_input("What is your choice?").lower()
 				if (response).lower() in quillchoices[0]:#User chooses right
 					print 'Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving her village.  She says she is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village  and everyone is happy for your marriage!'
-					#import scribe_level3.py
+					import scribe_level3.py #User moves to next level
 					
 			if (response).lower() in cave1choices[1]: #User chooses to hesitate
 				print "While you hesitate, the beast comes out of the cave and claws you across the chest. You frantically grab for your sword, but you realize that the measly sword is defenseless by itself against the gigantic beast.  You decide to combine the sword with the magic from the beer mug."
@@ -118,12 +113,12 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 					print "You use the magical sword as a offensive weapon.  As you swing left and right, the beast comes closer and closer.  You use the sword to hit the beast. The beast is now infuriated and fights even more angrily. You fight back and forth.  With your last blow to the beast, you swing with all your strength and kill the beast!"
 					print " "
 					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"
-					#import scribe_level3.py
+					import scribe_level3.py #User moves to next level
 				if (response).lower() in magicalswordchoices[1]: #User chooses defensive weapon
 					print "You use the magical sword as a shield. You manage to deflect each fire blow from the beast.  As the beast runs out of breath from his firebreathing, you aim the shield directly at the beast.  As the beast breathes fire your way, the fire is deflected right back towards him and the beast is killed!"
 					print " "
 					print "Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage even the blacksmith!"  
-					#import scribe_level3.py
+					import scribe_level3.py #User moves to next level
 					
 			while (response).lower() not in cavechoices: #while loop for continuous program response if the user input is not found in the choices dictionary
 				print " "
@@ -140,7 +135,7 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 		response=raw_input("What is your choice?").lower()
 	if (response).lower() in storychoices[0]: #User chooses to ignore story
 		print "You ignore her desperate look and change the topic with an embarassed look.  She gives you an understanding look and proceeds to give you blankets and bids you good night. The next morning, you wake before your savior does and you leave her village."
-		#import scribe_level3.py
+		import scribe_level3.py #User moves to next level
 while (response).lower() not in painchoices: #while loop for continuous program response if the user input is not found in the choices dictionary
 	print " "
 	print "Incorrect input. Try again."
@@ -149,4 +144,4 @@ if (response).lower() in painchoices[1]: #if the user input is equal to the seco
 	print "She says HMPH and runs away crying."
 	print " "
 	print "Because you chose to be a terrible person and let a beautiful maiden run away crying, you get caught by the palace guards and get returned to the palace!"
-	#import scribe_level3.py
+	import scribe_level3.py #User moves to next level
