@@ -85,7 +85,7 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 				print "You walk into the dark cave.  You hear growling and all of a sudden, a fireball rushes your way.   You quickly dodge out of the way.  In your action of dodging, you lost your spiked hammer in the dark!  You frantically search for it in the dark but you cannot find it. You decide to use your magical beer mug and you quickly pull it out.  It is too dark to see where the beast is."
 				player_input(prompt='Do you wave your magical beer mug to the left or to the right?', choice1='Left', choice2='Right') #User prompted to wave quill left or right
 
-				quillchoices=['right'] #Dictionary for prompt
+				quillchoices=['right', 'left'] #Dictionary for prompt
 				
 				response=raw_input('What is your choice?') #raw input for response
 				
@@ -96,6 +96,9 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 				if (response).lower() in quillchoices[0]:#User chooses right
 					print 'Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage, even the blacksmith!'
 					import barmaid_level3.py #User moves to next level
+				if (response).lower() in quillchoices[1]:#User chooses right
+					print 'Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage, even the blacksmith!'
+					import barmaid_level3.p
 					
 			if (response).lower() in cave1choices[1]: #User chooses to hesitate
 				print "While you hesitate, the beast comes out of the cave and claws you across your chest.  You frantically grab your spiked hammer and swing it furiously at the beast, however, the beast is not fazed and becomes even stronger as it adapts to your blows.  You decide to use your hammer and the magic from your beer mug."
