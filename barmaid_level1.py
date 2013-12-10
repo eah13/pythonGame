@@ -14,7 +14,7 @@ response= raw_input("What is your choice? ") #raw input for response
 
 if (response).lower() in cellchoices[0]:#User chooses to stay dank
 	print "If you wish..."
-  		import barmaid_level1.py #restarts level
+  	import barmaid_level1.py #restarts level
 if (response).lower() in cellchoices[1]:#User chooses to break out
 	print "Excellent!"
 
