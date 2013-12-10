@@ -15,7 +15,7 @@ cellchoices=['stay dank and lonely', 'break out'] #choices dictionary for either
 response= raw_input("What is your choice? ") #raw input for response
 if (response).lower() in cellchoices[0]:
   print "If you wish..." #Then this is the response that will print
-  	import scribe_level1.py #And as a result, the user will be forced to the start of the scribe's version of level 1
+  import scribe_level1.py #And as a result, the user will be forced to the start of the scribe's version of level 1
 
 if (response).lower() in cellchoices[1]:
   print "Excellent! You take out your handy dandy quill and begin lockpicking the door.\n" #Then the user has the ability   to lockpick the door 
@@ -29,7 +29,7 @@ if (response).lower() in cellchoices[1]:
       response= raw_input("What is your choice? ") #raw input for response 
       if (response).lower() in doorchoices[0]: #If the user chooses door one...
         print "Guards find you! You are manhandled and forced back into your cell.\n" #The user is forced back into his/her cell
-		import scribe_level1.py #Then the user is forced to start the Scribe's version of level 1 over again
+	import scribe_level1.py #Then the user is forced to start the Scribe's version of level 1 over again
       if(response).lower() in doorchoices[1]: #If the user chooses door two...
         print "Fresh, clean air! You are free, Palace Scribe!"#The user is free
         import scribe_level2.py #And the user continues on to the Scribe's version of level 2
