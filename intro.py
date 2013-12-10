@@ -5,8 +5,8 @@ def player_input(prompt, choice1, choice2):
         print "Choice 2: ", choice2;
         
 print "Welcome to our Medieval Python RPG!" 
-player_input(prompt="Are you going to be a male or female in this game?", choice1="female", choice2="male")
-genderchoices=['female', 'male']
+player_input(prompt="Are you going to be a girl or boy in this game?", choice1="girl", choice2="boy")
+genderchoices=['girl', 'boy']
 response=raw_input("What is your choice?")#Input to ask the user what his or her gender is
 
 if (response).lower() in genderchoices[0]:
