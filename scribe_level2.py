@@ -101,7 +101,7 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 					import scribe_level3.py #User moves to next level
 				if (response).lower() in quillchoices[1]:#User chooses right
 					print 'Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving her village.  She says she is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village  and everyone is happy for your marriage!'
-					import scribe_level3.py	
+					import scribe_level3.py	#User goes to next level
 			if (response).lower() in cave1choices[1]: #User chooses to hesitate
 				print "While you hesitate, the beast comes out of the cave and claws you across the chest. You frantically grab for your sword, but you realize that the measly sword is defenseless by itself against the gigantic beast.  You decide to combine the sword with the magic from the beer mug."
 				player_input(prompt='Do you use your magical sword as an offensive weapon or a defensive weapon?',choice1='Offensive weapon',choice2='Defensive weapon')
