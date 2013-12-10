@@ -38,7 +38,7 @@ if (response).lower() in cellchoices[1]:
       print "The lock does not budge. Try again.\n" #Then the user is not able to open the door
       player_input(prompt="Do you turn your quill to the right or the left first?", choice1="left", choice2="right") #Input prompting the user to choose       which way to turn the quill to lockpick again
       newlockchoices=['left', 'right']
-      reponse= raw_input("What is your choice?") #raw input for response
+      response= raw_input("What is your choice?") #raw input for response
       if (response).lower() in newlockchoices[0]: #If the user turns it to the left
           print "The lock breaks free and your cell door swings open!" #Then the user is able to break free from the cell
       if (response).lower() in newlockchoices[1]: #If the user turns it to the right...
