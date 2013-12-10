@@ -42,5 +42,5 @@ if (response).lower() in cellchoices[1]:
           print "The lock breaks free and your cell door swings open!" #Then the user is able to break free from the cell
       if (response).lower() in newlockchoices[1]: #If the user turns it to the right...
           print "The lock does not budge. Try again." #Then the user is not able to open the door
-          import scribe_level1.py #The level restarts 
+          	import scribe_level1.py #The level restarts 
       
