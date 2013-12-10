@@ -101,7 +101,7 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 					import barmaid_level3.py #User moves to next level
 				if (response).lower() in quillchoices[1]:#User chooses right
 					print 'Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage, even the blacksmith!'
-					import barmaid_level3.p
+					import barmaid_level3.py
 					
 			if (response).lower() in cave1choices[1]: #User chooses to hesitate
 				print "While you hesitate, the beast comes out of the cave and claws you across your chest.  You frantically grab your spiked hammer and swing it furiously at the beast, however, the beast is not fazed and becomes even stronger as it adapts to your blows.  You decide to use your hammer and the magic from your beer mug."
