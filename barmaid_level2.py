@@ -42,15 +42,18 @@ if (response).lower() in painchoices[0]: #User chooses to heal cut
 			if (response).lower() in cave0choices[0]: #Enter the Cave
 				print "You walk into the dark cave.  You hear growling and all of a sudden, a fireball rushes your way.  The fireball hits your armor and you get flung backwards.  You get up as fast as you can in the heavy suit of armor.  You ball up your armored fist."
 				player_input(prompt="Do you swing your fist left or right?", choice1='Left', choice2='Right') #Prompt for user input	
-				fistchoices=['right']
+				fistchoices=['right', 'left']
 				response=raw_input('What is your choice?')
 	
 				while (response).lower() not in fistchoices:#User chooses Right or inputs incorrectly
 					print" "
-					print "Yikes!  Looks like you missed, try again."
+					print "Incorrect input.  Try again."
 				if (response).lower() in fistchoices[0]: #User chooses Left
 					print "Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage, even the blacksmith!"
 					import barmaid_level3.py #Move to next level
+				if (response).lower() in fistchoices[1]: #User chooses Left
+					print "Congratulations, you have killed the beast! Your savior comes and gives you a kiss for saving his village.  He says he is forever in your debt. You two fall in love, and get happily married!  You are deemed a hero in the eyes of the village and everyone is happy for your marriage, even the blacksmith!"
+					import barmaid_level3.py
 			if (response).lower() in cave0choices[1]: #User chooses to hesitate
 				print "While you hesitate, the beast comes out of the cave and claws your armor.  You have a gash across your chest from the blow.  Your armor is in shards of metal beside you. You take a shard of metal and use it as a weapon."
 				player_input(prompt='Do you use the shard of metal as a sword or a throwing weapon?',choice1='Sword', choice2='Throwing Weapon')
