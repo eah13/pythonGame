@@ -17,7 +17,7 @@ if (response).lower() in genderchoices[0]:
     	response= raw_input("What is your choice? ") #raw input for response
     	if (response).lower() in answerchoices[0]: #If the user speaks up and stands up to the king...
 		print "In return, you inform the King that his breath is unbearable and you are sent to the dungeon. The 		King goes into a rage and send you to solitary confinement."#After speaking up, this is the 					response that will be printed out
-		import barmaid_level1.py #After being sent to the dungeon, Level 1 of the Bar Maid's version of the game 		will be imported 
+			import barmaid_level1.py #After being sent to the dungeon, Level 1 of the Bar Maid's version of the game 		will be imported 
 	if (response).lower() in answerchoices[1]: #If the user complies and does not defy the king...
 		print "Really? You will let such a defiant moment pass?" #After complying, this is the response that 			will be printed out
 		import intro.py #After complying, the user will be forced to restart the "Intro" portion of the game
