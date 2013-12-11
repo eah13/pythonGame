@@ -6,7 +6,7 @@ print " "
 print "You realize that you’re not cut out for a life on the run, so you decide to head back to the palace and stand trial. As the judge concludes your charges, you standand defiantly plead 'Not Guilty'\n"
 print " "
 player_input(prompt="What is your argument? Do you claim you were taking notes in such a way to establish a new metadata schemeand usher in the educational practice of information science OR do you claim your experiences in the forest will make you a valuable warrior for the kingdom?)
-king_rebuttal - raw_input("What is your argument? Do you claim you were taking notes in such a way to establish a new metadata schemeand usher in the educational practice of " + "\"information science\"" + ' OR do you claim your experiences in the forest will make you a " + "\"valuable warrior\"" + ' for the kingdom?) #this gives the players their two options to pick
+king_rebuttal = raw_input("What is your argument? Do you claim you were taking notes in such a way to establish a new metadata schemeand usher in the educational practice of " + "\"information science\"" + ' OR do you claim your experiences in the forest will make you a " + "\"valuable warrior\"" + ' for the kingdom?) #this gives the players their two options to pick
 if 'Information science' in king_rebuttal: #this is one of the possible answers, it needs to be case sensitive so keep it in mind
   print " "
   print "The king scoffs at your notion. '98% of our kingdom cannot even read. INFORMATION SCIENCE PAH?! I condemn you to the guillotine! Ouch, sounds like the king isn't the only one losing his head over this." #this input continues the story depending on what the player chose
