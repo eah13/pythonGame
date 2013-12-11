@@ -7,7 +7,9 @@ As a contributor, you are expected to test and run your own code. Before submitt
 
 A basic and easy way for you to keep uniformity with the standard our code has set would just be to look at the raw code itself. Assuming you don't have access to do that, just know that our levels are each individual files that will pull upon each other to advance or sometimes regress a user's adventure. To that end, just make sure if you're advancing or progressing levels, you try to keep the same level name syntax in order to keep the files consistent.
 
-In addition, this program makes use of 'for/while' loops to cut down on repetitive code and account for users input a wrong choice. An example of this is can be [seen here](http://i.imgur.com/PLFhe9r.png)
+In addition, this program makes use of 'for/while' loops to cut down on repetitive code and account for users input a wrong choice. An example of this is can be [seen here](http://i.imgur.com/PLFhe9r.png). That will be the basic syntax required for creating any scenario within a level of the game. 
+
+In essence, a prompt and its subsequent choices must be created. Next, the choices must be assigned to a variable so that they can be referred to later. Then a "raw_input" should be defined so that the user has something to response to. Then if statements must be declared in order to decide what will happen if the user picks one choice versus another choice. The "while" loop is required to "print" out some text when the user has typed in something incorrectly. 
       
 Finally, we use data dictionaries to account for our possible choices, so please start each level with the following:
 [data dictionary](http://i.imgur.com/p00z0O7.png)
