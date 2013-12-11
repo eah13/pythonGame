@@ -14,6 +14,10 @@ Finally, we use data dictionaries to account for our possible choices, so please
 
 Other than that, just be creative and have fun! Be sure to send a pull request to odorsey's repo of the game when you're done, and thanks for contributing!
 
+How to mention a bug:
+---------
+If you do find an issue with one of our files or have a recommendation, please be sure to create an issue in the "pythonGame" repository. One of our contributors will respond to it in a timely manner.
+
 Be kind!
 ---------
 As a contributor to our repo, you are also agreeing that you will be cooperative and friendly towards others who work in our repository. Not everyone who contributes to "pythonGame" will be at the same skill level. As such, we must remember to be patient with beginning fellow Python programmers! Be sure to encourage one another and teach each other whenever possible! 
