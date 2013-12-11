@@ -9,7 +9,7 @@ First make sure that you have a Linux machine in order to run the program. In or
 python intro.py
 ```
 
-This will begin the game.
+This will begin the game!
 
 ### Forking!
 After forking our repo, you'll get the following:
@@ -29,9 +29,9 @@ scribe_level3. py: The python file that contains the code for the Scribe's versi
 
 
 ### To Future Contributors
-The game is built with Python and has been tested with Ubuntu and ideone.com. Interested in the project? Want to collaborate with us? The game's content copyright 2013 Olivia Dorsey, Leslie Ho, and James Geer under a license. 
+The game is built with Python and has been tested with Ubuntu and ideone.com. Interested in the project? Want to collaborate with us? The game's content copyright 2013 [Olivia Dorsey](https://github.com/odorsey), [Leslie Ho](https://github.com/leslieho), and [James Geer](https://github.com/jkgeer) under a license which can be found [here](https://github.com/odorsey/pythonGame/blob/master/LICENSE). 
 
-What to bring a bug or request a feature for pythonGame? Please do so by reading our [contributor guidelines](https://github.com/odorsey/pythonGame/blob/master/CONTRIBUTORGUIDELINES.md) and then opening an issue. 
+What to mention a bug or request a feature for pythonGame? Please do so by reading our [contributor guidelines](https://github.com/odorsey/pythonGame/blob/master/CONTRIBUTORGUIDELINES.md) and then opening an issue. 
 
 ### What's next for pythonGame?
 We intend for the game to include more levels. We would also like to use Flaskr in order to eventually house our project and successfully integrate it with HTML and CSS via Skulpt so that it appears to the user in a more aesthetically-pleasing format. 
